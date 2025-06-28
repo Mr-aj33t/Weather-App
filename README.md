@@ -9,88 +9,87 @@ It shows current weather, 5-day forecast, UV index, and more using real-time API
 
 ## 📸 Screenshots
 
-> _(Add screenshots here if you want, or delete this section)_
+![Home Page](./src/assets/screenshot1.png)
 
 ---
 
 ## 🚀 Features
 
-- 📍 Get weather by **current location** using geolocation
-- 🔍 Search weather by **city name**
-- 🌡️ Current temperature and weather description
-- 🌅 Sunrise & 🌇 Sunset times
-- 💧 Humidity, 💨 Wind speed, 🧭 Pressure
-- 🌞 UV Index using OpenUV API
-- ⏰ Live clock for local time
-- 📱 Fully responsive layout
-- ✨ Clean UI with glassmorphism effects using Tailwind CSS
+- 📍 Get weather by **current location** using geolocation  
+- 🔍 Search weather by **city name**  
+- 🌡️ Current temperature and weather description  
+- 🌅 Sunrise & 🌇 Sunset times  
+- 💧 Humidity, 💨 Wind speed, 🧭 Pressure  
+- 🌞 UV Index using OpenUV API  
+- ⏰ Live clock for local time  
+- 📱 Fully responsive layout  
+- ✨ Clean UI with glassmorphism effects using Tailwind CSS  
 
 ---
 
 ## ⚙️ Tech Stack
 
-- **React (Vite)**
-- **Tailwind CSS**
-- **Axios**
-- **React Toastify**
-- **OpenWeatherMap API**
-- **OpenUV API**
-- **Vercel** (Deployment)
+- React (Vite)  
+- Tailwind CSS  
+- Axios  
+- React Toastify  
+- OpenWeatherMap API  
+- OpenUV API  
+- Vercel (Deployment)  
 
 ---
 
 ## 📂 Folder Structure
 
+```
 weather-app/
-│
 ├── public/
 ├── src/
-│ ├── assets/ # Icons/images
-│ ├── components/ # Reusable components
-│ │ ├── CityAndTime.jsx
-│ │ ├── Clock.jsx
-│ │ └── ForeCast.jsx
-│ ├── App.jsx
-│ ├── main.jsx
-│ └── index.css
-│
+│   ├── assets/            # Icons/images
+│   ├── components/        # Reusable components
+│   │   ├── CityAndTime.jsx
+│   │   ├── Clock.jsx
+│   │   ├── ForeCast.jsx
+│   │   └── NavBar.jsx
+│   ├── App.jsx
+│   ├── main.jsx
+│   └── index.css
 ├── .gitignore
 ├── README.md
 ├── package.json
+├── postcss.config.js
 ├── tailwind.config.js
-└── vite.config.js
+├── vite.config.js
 
-🖥️ Run the App Locally
+```
 
-# Clone the repository
+# 🖥️ Run the App Locally
+
+# 1. Clone the repository
 git clone https://github.com/Mr-aj33t/Weather-App.git
 cd Weather-App
 
-# Install dependencies
+# 2. Install dependencies
 npm install
 
-# Create .env file and add your API keys
-
-# Run the app
+# 3. Run the app
 npm run dev
 
-✅ To-Do
-🌎 Add language & unit switch (C/F)
+## ✅ To-Do
 
-📅 Add date/time for forecast
+- 🌎 **Add language & unit switch** (Celsius/Fahrenheit)  
+- 📅 **Add date/time for forecast**  
+- 📍 **Add location autocomplete** using Google Places or Mapbox  
 
-📍 Location autocomplete (Google Places or Mapbox)
+## 🙌 Credits
 
-🙌 Credits
-OpenWeatherMap API
+- [OpenWeatherMap API](https://openweathermap.org/)
+- [OpenUV API](https://www.openuv.io/)
+- [React Toastify](https://fkhadra.github.io/react-toastify/)
+- [Vercel](https://vercel.com/)
+- [Tailwind CSS](https://tailwindcss.com/)
 
-OpenUV API
+## 👋 Author
 
-React Toastify
+Made with ❤️ by **Ajeet**
 
-Vercel
-
-Tailwind CSS
-
-👋 Author
-Made with ❤️ by Ajeet
