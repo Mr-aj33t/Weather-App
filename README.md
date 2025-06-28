@@ -1,6 +1,6 @@
 # 🌤️ Weather App
 
-A clean, modern, and responsive weather app built using **React + Vite + Tailwind CSS**.  
+A clean, modern, and responsive weather app built using **HTML, CSS, React + Vite + Tailwind CSS**.  
 It shows current weather, 5-day forecast, UV index, and more using real-time APIs.
 
 🔗 **Live Site**: [https://weather-app-five-phi-17.vercel.app](https://weather-app-five-phi-17.vercel.app)
